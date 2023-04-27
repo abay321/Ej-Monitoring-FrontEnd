@@ -1,0 +1,45 @@
+.card {
+  border-radius: 15px;
+  border: 1px solid #ccc;
+  margin: 1rem 0;
+  overflow: hidden;
+  width: 100%;
+
+  /* background: rgb(53, 82, 53); */
+  /* min-width: 56rem; */
+  /* padding: 0 !important; */
+  /* display: flex !important; */
+  /* flex-direction: column !important; */
+  /* height: 30rem; */
+  background-color: #f8fafb;
+}
+
+.divider {
+  margin: 0.5rem 0 !important;
+  width: 100px !important;
+  line-height: 10px;
+}
+
+.chartbar {
+  height: 275px !important;
+}
+
+.table_container {
+  /* margin: 3rem; */
+  overflow: auto;
+}
+
+.table_a {
+  font-weight: bold;
+  /* background-color: #ccc !important; */
+}
+
+@media (max-width: 1090px) {
+  .card {
+    height: auto;
+  }
+
+  .divider {
+    margin: 2rem 0 !important;
+  }
+}

@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+
+.main-page {
+  display: flex;
+  height: 100vh !important;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+
+  .left {
+    flex: 1;
+    background-color: gray;
+    height: 100%;
+    display: flex;
+
+    .bg-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .text {
+      position: absolute;
+      color: white;
+      top: 43%;
+      left: 50px;
+      text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px white;
+      font-family: "Nanum Gothic", sans-serif;
+    }
+  }
+
+  .right {
+    width: 360px;
+    background-color: white;
+    padding: 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .logo-login {
+      width: 200px;
+      margin-bottom: 2rem;
+      margin-left: 2.5rem;
+    }
+
+    img {
+      width: 100%;
+    }
+
+    .login-header {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    form {
+      margin: 2rem auto;
+    }
+
+    .login-controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-bottom: 2rem;
+      text-align: left;
+    }
+
+    .login-control {
+      width: 100%;
+    }
+
+    .login-control label {
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+      display: block;
+    }
+
+    .login-control input {
+      font: inherit;
+      padding: 0.5rem;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      width: 100%;
+    }
+
+    .login-actions button {
+      padding: 10px;
+      width: 100%;
+      background: #2196f3;
+      outline: none;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: 0.2s;
+      font-size: medium;
+      color: whitesmoke;
+    }
+    .login-actions button:hover {
+      box-shadow: 0px 0px 0px 2px rgb(21, 101, 193);
+      background-color: rgb(21, 101, 193);
+      color: white;
+    }
+
+    footer {
+      position: absolute;
+      bottom: 0;
+      background: white;
+      color: black;
+      a {
+        font-weight: bold;
+        text-decoration-line: none;
+      }
+      a:hover {
+        color: #69b1ff !important;
+      }
+    }
+  }
+}

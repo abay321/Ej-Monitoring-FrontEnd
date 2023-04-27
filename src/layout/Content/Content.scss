@@ -1,0 +1,98 @@
+body {
+  // background: #f2e5e5;
+}
+
+.content_container {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  min-width: 57rem;
+  background: #f6f8fa;
+  background: #c2c7d3;
+}
+
+/* Drawer */
+
+.logo-mandiri-drawer {
+  // z-index: 10 !important;
+  width: 180px;
+  margin-left: 12px;
+  height: 50px;
+  margin-top: 10px;
+}
+
+.close-button-drawer {
+  color: "black" !important;
+  // background-color: #001427 !important;
+  font-size: 25px;
+  margin-left: 8px;
+}
+
+.ant-drawer-header-title {
+  // background-color: #001427;
+  height: 1.95rem;
+
+  .ant-drawer-content.ant-wrapper-body .ant-drawer-header {
+    // height: 8rem !important;
+    padding: 0 !important;
+  }
+
+  .ant-drawer-close {
+    margin: 0;
+    color: white;
+  }
+  .ant-drawer-close:hover {
+    color: #ccc;
+  }
+}
+
+.ant-drawer-content {
+  background-color: #001427 !important;
+  // background-color: white !important;
+}
+
+.ant-drawer-body {
+  padding: 0 !important;
+}
+
+.anticon.anticon-close svg {
+  // color: white;
+  // color: gray;
+  // font-size: 20px;
+  // font-weight: 500;
+}
+.anticon.anticon-close svg:hover {
+  // color: white;
+  // color: black;
+  // font-size: 20px;
+  // font-weight: bolder;
+}
+
+.route-content {
+  padding: 0 2.5rem 1rem;
+}
+
+/* Drawer */
+
+::-webkit-scrollbar {
+  /* width: 10px; */
+  /* height: 8px; */
+}
+
+::-webkit-scrollbar-track {
+  /* background-color: #f5f5f5; */
+}
+
+::-webkit-scrollbar-thumb {
+  /* background-color: #888; */
+  /* border-radius: 3px; */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  /* background-color: #ACACBE; */
+}
+
+::-webkit-scrollbar-button {
+  /* background-color: #f5f5f5; */
+  /* height: 20px; */
+}

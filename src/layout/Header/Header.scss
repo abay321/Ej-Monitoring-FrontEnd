@@ -1,0 +1,86 @@
+.ant-layout-header {
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0 0.5rem;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  top: 0;
+  height: 4rem;
+  // justify-content: space-between;
+  background: #2b3a55;
+  background: #51678f;
+
+  .header-left {
+    display: flex;
+    align-items: center;
+  }
+
+  .toggle-bar {
+    // position: absolute;
+    top: 12;
+    left: 0;
+    display: flex;
+    padding: 6px;
+    cursor: pointer;
+    font-size: 25px;
+  }
+  .toggle-bar:hover {
+    color: #ccc;
+  }
+
+  .logo-mandiri-header {
+    width: 180px;
+  }
+
+  .divider {
+    background: white;
+    width: 1px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 1rem;
+  }
+
+  .title-header {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 1rem;
+
+    h4 {
+      line-height: 25px;
+      font-size: 24px;
+      font-weight: 200;
+    }
+
+    h6 {
+      line-height: 25px;
+      font-size: 16px;
+      font-weight: lighter;
+    }
+  }
+  .admin-logo {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    // right: 0;
+
+    .user-icon-header {
+      font-size: 25px;
+      color: white;
+      margin-right: 1rem;
+    }
+
+    span {
+      color: white;
+      margin-right: 2rem;
+    }
+
+    .logout-icon-header {
+      font-size: 25px;
+      margin-right: 1rem;
+      cursor: pointer;
+    }
+  }
+}

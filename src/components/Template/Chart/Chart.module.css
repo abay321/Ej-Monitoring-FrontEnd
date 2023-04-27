@@ -1,0 +1,25 @@
+.chart_container {
+    display: flex;
+    flex-direction: column;
+    /* margin: 0 1rem; */
+  }
+  
+  .divider h1 {
+    /* margin: 1rem !important; */
+    font-weight: 100 !important;
+  }
+  
+  .divider h1 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  
+  .section_1 {
+    display: flex;
+    gap: 1.5rem;
+  }
+  /* 
+  .section_1 .ant-card-body {
+      padding: 0 !important;
+  } */
+  

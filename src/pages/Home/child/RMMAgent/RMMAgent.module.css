@@ -1,0 +1,44 @@
+.card {
+  border-radius: 15px;
+  /* width: 30%; */
+  /* width: 49rem; */
+  width: 40%;
+  min-width: 25rem;
+  border: 1px solid #ccc;
+  padding: 0 !important;
+  /* height: 30rem; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* background-color: rgb(64, 65, 104); */
+  /* background-color: whitesmoke; */
+  /* color: white !important; */
+  overflow: hidden;
+  background-color: #f8fafb;
+}
+
+.divider {
+  /* color: black !important; */
+  margin: 0.5rem 0 !important;
+  width: 100px !important;
+  line-height: 10px;
+}
+
+.piechart {
+  height: 265px !important;
+}
+
+.table {
+  padding: 0rem 0 0 0;
+  margin: 0.5rem 0 1rem 0 !important;
+  /* height: 0.5rem !important; */
+  /* background-color: black !important; */
+}
+.ant-table-cell.table_a {
+  /* font-weight: bold; */
+}
+
+/* .table_a {
+    padding: 0 !important;
+    background-color: black !important;
+} */

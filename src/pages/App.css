@@ -1,0 +1,67 @@
+.login-input {
+  display: flex;
+}
+
+/* .App {
+    min-height: 100vh;
+} */
+
+/* .header {
+    background-color: rgb(5, 92, 179);
+    padding: 0;
+
+}
+
+.sidebar {
+    height: 87.7vh;
+    margin-top: 1rem;
+} */
+
+/* .ant-layout-sider-children, 
+  .ant-menu {
+    background-color: gray;
+    height: 100vh;
+    position: fixed;
+    width: 12.5rem;
+  } */
+
+.ant-menu-item-selected {
+  /* background-color: black !important; */
+}
+
+.ant-menu-item,
+.ant-menu-submenu-title {
+  /* padding: 10px !important; */
+  /* margin: 1px !important; */
+  /* background-color: rgb(158, 158, 158); */
+  /* height: 2rem !important; */
+  font-size: smaller;
+  /* width: 11rem !important; */
+  font-weight: 600;
+  /* margin-left: 0rem !important; */
+  /* margin-right: 1rem !important; */
+}
+
+.ant-menu-sub {
+  /* background-color: rgb(72, 72, 72) !important ; */
+}
+
+.ant-menu-item-active {
+  /* background-color: #3d3d3d !important; */
+  /* color: white; */
+}
+.ant-layout-sider-zero-width-trigger {
+    /* position: fixed !important; */
+    /* position: sticky !important; */
+    /* top: 10 !important ; */
+    /* left: 0 !important; */
+    /* background-color: rgb(48, 52, 56) !important; */
+}
+
+.ant-layout-sider {
+  /* position: fixed !important;
+  overflow: auto;
+  height: 100vh;
+  margin-top: 4rem; */
+  /* z-index: 1; */
+}

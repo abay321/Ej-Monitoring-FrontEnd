@@ -1,0 +1,65 @@
+.scroll-menu {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px;
+    background-color: #f2f2f2;
+  }
+  
+  .scroll-menu::-webkit-scrollbar {
+    height: 5px;
+    background-color: #f2f2f2;
+  }
+  
+  .scroll-menu::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 100px;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 10px;
+  }
+  /* Header */
+  header {
+    grid-column: 1 / 4;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  /* Sidebar */
+  .sidebar {
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  /* Main Content */
+  .content {
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+    background-color: #fff;
+    padding: 20px;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+  }
+  /* Footer */
+  footer {
+    grid-column: 1 / 4;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+
+
+  .MuiInputBase-root {
+    /* padding: 0 auto !important; */
+  }
+
+  .MuiOutlinedInput-root {}

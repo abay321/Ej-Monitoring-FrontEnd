@@ -1,0 +1,37 @@
+.card {
+    border-radius: 15px;
+    width: 60%;
+    /* min-width: 30rem; */
+    /* width: 70% !important; */
+    border: 1px solid #ccc;
+    /* height: 30rem; */
+    /* display: flex !important;  */
+    /* flex-direction: column !important; */
+    overflow: hidden;
+    /* background: rgb(56, 111, 105); */
+    /* color: white !important; */
+    background-color: #f8fafb;
+}
+
+.divider {
+    margin: 0.5rem !important;
+    line-height: 10px;
+    
+}
+
+.chartbar {
+    margin-top: 1.5rem;
+    height: 250px !important;
+}
+
+.table {
+    margin: 2.3rem 0 0 0;
+    /* margin: 2rem 0rem !important;
+    height: auto; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+    
+}
